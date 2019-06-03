@@ -122,7 +122,7 @@
                     <div class="desc">Yummy Burgers</div> </li>
                     <li><a rel="gallery_group" href="images/pizza_big.jpg" title="Pizza"><img src="images/pizza_small.jpg" alt="pic2" /></a>
                     <div class="desc">Delicious Pizzas </div></li>
-                    <li class="last"><a rel="gallery_group" href="images/pasta.jpg" title="Pasta"><img src="images/pasta.jpg" alt="pic3" /></a>
+                    <li class="last"><a rel="gallery_group" href="images/pasta.jpg" title="Pasta"><img src="images/pasta_big.jpg" alt="pic3" /></a>
                     <div class="desc">Unlimited Pastas</div></li>
                     <li><a rel="gallery_group" href="images/cake_big.jpg" title="Cake"><img src="images/cake_small.jpg" alt="pic1" /></a>
                     <div class="desc">Cakes</div></li>
