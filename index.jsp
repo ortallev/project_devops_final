@@ -1,5 +1,5 @@
-<%@ page language ="java" contentType="text/html"%>
-<%@page import="java.text*.,java.util.*"%>
+
+
 <html>
 	<body>
 		<h1> final project course Devops ortal & gil </h1>
