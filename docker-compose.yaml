@@ -1,0 +1,22 @@
+version: '3'
+services: 
+
+ jenkins:
+    container_name: docker-jenkins
+    image: jenkins/jenkins
+    volumes:
+      - /home/ortal/ortal838/jenkins:/var/jenkins_home
+      - /var/run/docker.sock:/var/run/docker.sock
+    ports:
+      - "50001:50000/tcp"
+      - "8082:8080/tcp"
+ ######################################################## 
+ tomcat:
+      container_name: docker-tomcat
+      image: tomcat:8.5
+      ports:
+          - "8080:8080"
+          - "8444:8443"
+      volumes:
+        - /home/ortal/ortal838/jenkins/workspace/job_jsp/:/usr/local/tomcat/webapps/ROOT/
+        - /home/ortal/ortal838/tomcat/logs:/usr/local/tomcat/logs
